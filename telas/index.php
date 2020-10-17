@@ -39,17 +39,20 @@
     ?>
     
     <section class="" id="home"> 
-      <div class="container">
-        <div class="row ml-3">
-          <div class="col-md-10 ml-5 mt-3 mb-5"> 
-            <!-- <div class=""> -->
+      <div class="container ">
+        <div class="row ">
+          <div class="col-md-6 d-flex"> 
+            <div class="align-self-center">
 
-              <!-- <h1>A saúde de seu cão em primeiro lugar</h1>
+
+              <h1>A saúde de seu cão em primeiro lugar</h1>
 
               <p>
                 Profissionais certificados para passear com o seu cãozinho.
             </p>
-      <form class="mt-4 mb-4">
+      
+ <form class="mt-4 mb-4
+  ">
                 <div class="input-group input-group-lg">
                   <input type="text" placeholder="Seu seu endereço" class="form-control ">
                   <div class="input-group-append">
@@ -57,92 +60,18 @@
                   </div>
                 </div>
               </form>
- -->
-              <div class="d-flex fonte p-3 mb-5 bg-white rounded ml-5"> 
-            <div class="ml-5">
-              <h1 class="text ml-3">A saúde de seu cão em primeiro lugar</h1>
-
-              <p class="text-center">
-                Profissionais certificados para passear com o seu cãozinho.
-            </p>
-
-            <form class="mt-4 mb-4 text-center">
-
-              <div class="input-group input-group-lg">
-
-              <h4 class="text ml-5"> Bairro: </h4> 
-                
-              <select class="col-md-6 ml-2" name="bairro">
-                <option>Selecione seu bairro</option>
-                <option>Andaraguá</option>
-                <option>Anhanguera</option>
-                <option>Aviação</option>
-                <option>Bairro Militar</option>
-                <option>Balneário Maracanã</option>
-                <option>Boqueirão</option>
-                <option>Caiçara</option>
-                <option>Caieiras</option>
-                <option>Caminho da Serra</option>
-                <option>Cidade da Criança</option>
-                <option>Cohab</option>
-                <option>Distrito Sede de Praia Grande</option>
-                <option>Duque de Caxias</option>
-                <option>Emissário</option>
-                <option>Flórida</option>
-                <option>Canto do Forte</option>
-                <option>Guariúma</option>
-                <option>Intermares</option>
-                <option>Jardim Aloha</option>
-                <option>Jardim Esmeralda</option>
-                <option>Jardim Glória</option>
-                <option>Jardim Guilhermina</option>
-                <option>Jardim Imperador</option>
-                <option>Jardim Quietude</option>
-                <option>Jardim Real</option>
-                <option>Jardins</option>
-                <option>Maxland</option>
-                <option>Melvi</option>
-                <option>Mirim</option>
-                <option>Ocian</option>
-                <option>Parque das Américas</option>
-                <option>Pedra de Tórguer</option>
-                <option>Ribeirópolis</option>
-                <option>Samambaia</option>
-                <option>Sanharol</option>
-                <option>Santa Helena</option>
-                <option>Santa Mathilde</option>
-                <option>Sítio do Campo</option>
-                <option>Sítio dos Jesuítas</option>
-                <option>Solemar</option>
-                <option>Trilha da Adutora</option>
-                <option>Tude Bastos</option>
-                <option>Tupi</option>
-                <option>Tupiry</option>
-                <option>Vila Sônia</option>
-                <option>Vila Tupi</option>
-                <option>Ximeno de Villeroy</option>
-                <option>Xixová</option>
-                </select>
-
-                <a href="entra.php" class=" btn btn-outline cor2 ml-5 text-white">Agendar</a>
-
-              </div>
-
-              </form>
 
             </div>
-          </div>
-<!-- 
-            </div> -->
           </div> 
           
+
           <div class="col-md-10 d-none d-md-block">  
           </div>
         </div>
       </div>
     </section>  
 
-    <section class="caixa  "> 
+    <section class="caixa  "> <!-- Inicio oque é dog walk -->
       <div class="container ">
         <div class="row">
 
@@ -151,7 +80,7 @@
               <img src="img/ft1.jpg"  width="400" class="img-fluid">
           </div>
 
-          <div class="col-md-6 d-flex fonte p-3 mb-5 font1 efeito1   shadow p-3 mb-5 bg-white rounded"> 
+          <div class="col-md-6 d-flex fonte p-3 mb-5 font1 efeito1   shadow p-3 mb-5 bg-white rounded"> <!-- border border-primary-->
             <div class="align-self-center fonte">
               <h2 class="text"><b>Contrate o serviço de passeador</b></h2>
               <p class="text2 text-justify" style="font-size: 18px;">
@@ -159,16 +88,15 @@
                confiança para gastar a energia de seu cão, com brincadeiras 
                divertidas deixando o seu fiel amigo feliz e satisfeito.
               </p>
-              <a href="agendamento.html" class=" btn btn-outline cor2 text-white">Veja mais</a> 
+              <a href="agendamento.php" class=" btn btn-outline cor2 text-white">Veja mais</a> <!--hiper -->
             </div>
           </div>
         
         </div>
       </div>
 
-    </section>
+     <section class="caixa cor_bloco"> <!-- Inicio como funciona -->
 
-     <section class="caixa cor_bloco">
       <div class=" text-center font2">
         <h1 class="text"><b>Um passeio em apenas 3 passos</b></h1><br><br>
       </div>
