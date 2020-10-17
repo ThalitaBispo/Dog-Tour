@@ -1,0 +1,476 @@
+
+
+#home{
+	background:#1D5297;
+	/*color: white;*/
+  height: 60%;
+  /* position: fixed;
+  overflow-x: hidden;*/
+
+ /* background-image: linear-gradient(-90deg, #00CED1, #4BDCEB,  #81E7EB, #3DFFCB);*/
+}
+
+.termos{
+  background: #0D75BB;
+  background: -webkit-linear-gradient(-135deg, #27344E);
+  background: -webkit-linear-gradient(-135deg, #0D75BB, #27344E);
+}
+
+.cor_bloco{
+  background: #EBEDEF;
+}
+ .mar2{
+  margin-left: 20%;
+ }
+
+.ola{background-color: #FF6A17 ;
+    color: #fff;
+    padding: 10px 10px 10px;
+    margin-right: 220px;
+    margin-left: 220px;
+    box-shadow: 0 0 black;
+  }
+
+  .ola2{background-color: #FF6A17 ;
+      color: #fff;
+      padding: 10px 10px 10px;
+      margin-right: 220px;
+      margin-left: 220px;
+      box-shadow: 0 0 black;
+    }
+
+
+
+
+
+.cor_menu{
+  background:#30D4FF;
+    color: white;
+}
+
+.caixa{
+	padding: 40px 0;
+	border-bottom: 2px solid #e5e5e5; 
+
+}
+.caixa2{
+  padding: 40px 0;
+  border-bottom: 2px solid #e5e5e5; 
+
+}
+
+.sombra{
+ width: 300px;
+ padding: 1px;
+ background-color: blue;
+ box-shadow: 1px 1px 1px #363636;
+ -webkit-box-shadow: 2px 2px 2px #363636;
+ -moz-box-shadow: 2px 2px 2px #363636;
+}
+
+.mar2{
+  margin-left: 30px;    
+}
+.caixa2{
+ border-width: 5px;
+    width: 20%;
+}
+
+.cor1{
+  background:#E1EFF8;
+  
+}
+
+.text{
+  color: #1D5297;
+}
+
+.text2{
+  color: #7B7B7B;
+}
+
+
+.text3{
+ color :yellow;
+}
+
+.text4{
+  color:#FF6A17;
+}
+.cor{
+  border: 1px solid red;
+  background-color:
+
+}
+
+.cor2{
+  background:/*#50B0F9*/
+  #FF6A17;
+}
+
+.cor3{
+  background:#1D5297;
+  
+}
+
+.cor_secao2{
+  background:#0071BD;
+}
+
+.font1{
+  color:white;
+}
+
+
+.efeito1:hover
+{
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+.efeito
+{
+        opacity:0.6;
+        
+}
+.fade:hover
+{
+        opacity:2;
+}
+
+
+.text_logo{
+  font-size: 30px;
+  font-family: Showcard Gothic;
+}
+
+.cor_texto{
+  color:#FF6A17;
+}
+
+.img_fundo{
+  background: url(../img/fundo.jpg);
+
+        
+  background-repeat: no-repeat;
+  
+
+}
+
+
+.img_fundo2{
+  background: url(../img/fundo3.jpg),
+        linear-gradient(50deg,blue,#7c26f8);
+  background-attachment: fixed;
+  font-family: Helvetica,Arial,sans-serif;
+
+}
+
+.espaco{
+  margin-left: 250px;
+}
+
+
+   .borda{ 
+    border:1px groove #006600;
+    border-radius: 20px;
+     }
+
+.zoom2 img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.zoom3 :hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+/*.oculta { display:none; 
+}*/
+
+.rodape{
+  padding: 100px;
+}
+
+#mar{
+  margin-top: 100px;
+}
+
+home.fonte{
+
+  font-weight: : 100px;
+  font-style: italic ;
+}
+
+      div.centro1{width: 400px; height: 400px; display: inline-block; margin-left:100px; }
+    div.centro2{width: 400px; height: 400px; display: inline-block; margin-left:100px;}
+    div.centro3{width: 400px; height: 400px; display: inline-block; margin-left:100px;}
+  {color: blue; text-align: center;}
+    div.a{text-align: center; font-size: 15px; width: 380px; }
+   
+
+    p.destaque{
+		background-color: #66CCFF;
+       margin-right:500px;}
+
+
+      /* CSS reset */
+*, *:before, *:after { 
+  margin:0;
+  padding:0;
+  font-family: Arial,sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* esconde as ancoras da tela */
+a.links{
+  display: none;
+}
+
+/** content que contem os formulários */
+.content{
+  width: 500px;
+  margin: 0px auto;
+  position: relative;   
+}
+
+/*estilo do botão submit */
+input:not([type="checkbox"]){
+  width: 50%;
+  margin-top: 4px;
+  padding: 10px;    
+  border: 1px solid #b2b2b2;
+  
+ 
+}
+
+
+
+
+.foto img:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* Rodapé
+-----------------------------*/
+footer {
+  background: #000;
+  padding: 50px 0px 20px 0px;
+  position: relative;
+}
+
+footer h4 {
+  color: #919496;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+
+  color: white;
+  font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+  color: #9bf0e1;
+  text-decoration: none;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  float: right;
+  margin: 0 5px;
+}
+
+/*Carossel*/
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {
+  display: none;
+  justify-content: center;
+      align-items: center;
+    
+}
+.img {
+  vertical-align: middle;
+  display: block;
+  margin-left: auto;
+    margin-right: auto;
+  }
+
+/* Slideshow container */
+.slideshow-container {
+  /*
+  border-width: medium;
+  border-style: solid;
+  border-color: #00f;
+*/
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+   
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/*planos*/
+
+.why-choose-us-content1 {
+    /*-webkit-transition-duration: 800ms;
+    -o-transition-duration: 800ms;
+    transition-duration: 800ms;*/
+    background-color: #1D5297; /*cor do qudrado*/
+    padding: 80px 30px 50px;
+  
+    box-shadow: 3px 0 15px -1px rgba(0, 0, 0, 0.15);
+
+    margin-top: 50px;}
+
+  
+}
+
+
+
+
+p.plano1-texto2 {
+    color: white;
+    font-size: 30px;
+    background: #ed2f59;
+    font-family: 'calibri';
+    border-style: solid;
+    font-size: 1.2rem;
+    border-color: #ed2f59;
+    border-radius: 15px;}
+
+
+
+p.plano1-preco{
+  color:black; background: #FF6A17; 
+  font-family: 'italic'; 
+  border-style:
+  solid;border-color:#FF6A17;
+  border-radius:25px;}
+
+p.plano1-por-mes{
+  color:black; 
+  background: #FF6A17;
+  font-family: 'italic';
+  border-style: solid;
+  font-size:15px;
+  border-color: #FF6A17;
+  border-radius:15px;}
+
+p.plano1-texto2{color:black;
+ background: #FF6A17;
+ font-family: 'calibri';
+ border-style: solid;
+  font-size: 1.2rem;
+  border-color: #FF6A17;
+  border-radius:15px;
+}
+
+
+
+/* RADIO */
+[type=radio] { 
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+
+}
+
+
+/*[type=radio] + img {
+  cursor: pointer;
+  stroke-linecap: 
+}
+
+[type=radio]:checked + img {
+  outline: 2px solid blue;
+}
+*/
+
+
+.div-select {    width:250px;  /* Tamanho final do select */   
+ overflow:hidden; /* Esconde o conteúdo que passar do tamanho especificado */} 
+ .div-select select {    
+   background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-select.gif) 
+   no-repeat #354880;  /* Imagem de fundo (Seta) */     
+    background-position: 205px center;  /*Posição da imagem do background*/    
+      width: 270px; /* Tamanho do select, maior que o tamanho da div "div-select" */    
+      height:48px; /* altura do select, importante para que tenha a mesma altura em todo os navegadores */  
+      font-family:Arial, Helvetica, sans-serif; /* Fonte do Select */  
+      font-size:18px; /* Tamanho da Fonte */ 
+       padding:13px 20px 13px 12px; /* Configurações de padding para posicionar o texto no campo */ 
+        color:#fff; /* Cor da Fonte */      text-indent: 0.01px; /* Remove seta padrão do FireFox */   
+         text-overflow: "";  /* Remove seta padrão do FireFox */ 
+       select::-ms-expand {display: none;} /* Remove seta padrão do IE*/ }
+
+
+
+       .campo1 {
+   float:left;
+}
